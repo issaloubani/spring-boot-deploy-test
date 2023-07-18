@@ -7,10 +7,10 @@ import java.util.HashMap;
 
 @RestController
 public class HelloController {
-    @GetMapping("/")
+    @GetMapping("/test/issa")
     public HashMap<String, Object> hello() {
         return new HashMap<String, Object>() {{
-            put("message", "Hello World!");
+            put("message", "issa was here :) !");
         }};
     }
 }
